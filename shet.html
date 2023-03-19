@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>new formate</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1  align="center">Registation Form </h1>
+    <hr>
+    <div>
+        <form>
+            <ul>        
+                       <label for="username">Username</label><br>
+                   <li> <input type="text" required placeholder="your_email@.com" name="username"></li><br>
+                       <label for="password">Password</label><br>
+                   <li> <input type="password" required placeholder=" password" name="password" ></li><br>
+            </ul>    
+           
+        </form>
+       
+    </div> 
+    <div>
+        <form>
+             <ul>   <p> !Type a complex password with 8-20 characters.</p>
+                <label for="Number">Number</label><br>
+               <li> <input type="number" required placeholder="+20 phone number" name="number" ></li>
+            </ul>   
+    </div>
+    <div>
+        <br>
+        <br>
+        <hr>
+         <h2>Enter your profession</h2>
+        <form>
+            <ul>
+                <li> <input type="radio" name="student" value="student">Student
+                <input type="radio" name="student" value="Teacher">Teacher
+                <input type="radio" name="student" value="Developer">Developer</li>
+            </ul> <br><hr> 
+            <label for="drop-down" >  Chooes the stage if you are (Student)</label>
+            <select name="drop-down">
+                       <option value="Frist primary" >Frist primary</option>
+                        <option value="Second primary" >Second primary</option>
+                        <option value="Third primary" >Third primary</option>
+                        <option value="Fourth primary" >Fourth primary</option>  
+                       
+            </select><br>
+
+        </form>
+        <div>
+            <form><br><hr>
+             <ul>
+               <li> <label for="date" >Enter your Birthday</label>
+                <input type="date" name="date"></li>
+            </ul>
+
+            </form>
+        </div>
+         <from><hr>
+            <ul>
+              <li><input type="text" required placeholder="Any Notes"></li>
+            </ul>  
+         </from>
+         <div>
+            <hr>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+         </div>
+    </div>    
+</body>
+</html>
